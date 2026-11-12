@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Agronegócio: do campo à mesa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero" id="top">
+<span class="sun">☀️</span><span class="cl" style="top:70px;animation-duration:38s">☁️</span><span class="cl" style="top:130px;font-size:2.2rem;animation-duration:55s;animation-delay:-20s">☁️</span>
+<div class="wrap in"><h1>🌾 Do campo à mesa</h1><p>Descubra como o agronegócio faz o alimento chegar até você: veja os vídeos, leia o guia e brinque com os jogos.</p>
+<div class="cta"><a href="#videos">▶ Ver vídeos</a><a class="g" href="#ler">📖 Ler guia</a></div></div>
+<div class="hill"></div><div class="hill b"></div><span class="tr">🚜</span>
+<div class="wh"><span>🌾</span><span>🌾</span><span>🌽</span><span>🌾</span><span>🌻</span><span>🌾</span><span>🌽</span><span>🌾</span></div>
+</header>
+<main class="wrap">
+
+<section id="videos">
+<h2>🎬 Vídeos explicativos</h2>
+<p class="lead">Toque em ▶. Ative o 🔊 para ouvir a narração.</p>
+<div id="v1" class="vid"></div><div id="v2" class="vid"></div><div id="v3" class="vid"></div>
+</section>
+
+<section id="ler">
+<h2>📖 Leia: guia rápido</h2>
+<p class="lead">Um texto curtinho para entender tudo. Ajuste o tamanho da letra.</p>
+<div class="box">
+<div class="tool"><span>Guia do agronegócio</span><button class="btn alt" id="am">A−</button><button class="btn alt" id="ap">A+</button><div class="pg"><i id="pgi"></i></div></div>
+<article id="art">
+<h3>O que é o agronegócio?</h3>
+<p>Agronegócio é o conjunto de atividades que envolvem a produção agropecuária, ou seja, a agricultura e a pecuária, e tudo o que acontece ao redor dela: da compra de sementes até a venda do alimento no mercado.</p>
+<p class="pull">Para entender a cadeia, usamos uma imagem simples: a porteira da fazenda.</p>
+<h3>Antes da porteira</h3>
+<p>São as atividades que preparam a produção. Aqui estão o comércio de insumos (sementes, fertilizantes, rações e defensivos), os maquinários, a medicina veterinária, as cooperativas, os armazéns, a logística e o escritório que organiza a fazenda. Sem essa etapa, o produtor não teria o que precisa para começar.</p>
+<h3>Dentro da porteira</h3>
+<p>É a produção em si: plantar, colher, criar e cuidar dos animais. É onde tudo o que foi preparado antes vira matéria-prima, como grãos, leite, carne, frutas e verduras.</p>
+<h3>Depois da porteira</h3>
+<p>Depois da colheita, o produto segue viagem. A indústria processa e transforma a matéria-prima. A distribuidora guarda e leva os produtos aos mercados. Então o alimento chega ao consumidor, no supermercado, na feira, em lojas e restaurantes.</p>
+<h3>Tecnologia e sustentabilidade</h3>
+<p>Máquinas modernas ajudam a produzir mais com menos esforço. Fontes de energia limpa, como a energia solar, reduzem custos e cuidam do meio ambiente. Produzir bem e preservar a natureza caminham juntos.</p>
+<h3>Por que isso importa?</h3>
+<p>O agronegócio coloca comida na mesa, gera empregos no campo e na cidade e movimenta a economia. Cada etapa da cadeia depende da outra: quando todas funcionam bem, o alimento chega com qualidade e a um preço justo.</p>
+<h3>Glossário</h3>
+<details><summary>🚪 Porteira</summary><p>A divisão simbólica da propriedade rural entre o que vem antes, dentro e depois dela.</p></details>
+<details><summary>📦 Insumos</summary><p>Tudo o que o produtor compra para produzir: sementes, adubos, rações e defensivos.</p></details>
+<details><summary>🤝 Cooperativa</summary><p>Grupo de produtores unidos para conseguir melhores condições de compra e venda.</p></details>
+<details><summary>🚚 Logística</summary><p>A organização do transporte e do armazenamento para levar o produto até onde ele é necessário.</p></details>
+<details><summary>💰 Agregar valor</summary><p>Transformar um produto para que ele valha mais, como o leite virando queijo ou iogurte.</p></details>
+</article></div>
+</section>
+
+<section id="explorar">
+<h2>🔎 Explore a cadeia</h2>
+<p class="lead">Escolha uma etapa e veja os detalhes. Pode deslizar para o lado.</p>
+<div class="tabs" id="tabs"></div>
+<div class="nodes" id="nodes"></div>
+<div class="box"><div class="panel" id="panel"></div>
+<div class="nav"><button class="btn alt" id="prev">← Anterior</button><button class="btn" id="next">Próxima →</button></div></div>
+</section>
+
+<section id="jogar">
+<h2>🎮 Jogos</h2>
+<p class="lead">Teste o que você aprendeu.</p>
+<div class="box" id="quiz" style="margin-bottom:18px"></div>
+<div class="box"><b style="font-family:system-ui,sans-serif">Monte o caminho do alimento</b>
+<p class="lead" style="margin:4px 0 0">Toque nas etapas na ordem certa.</p>
+<div class="slots" id="slots"></div><div class="chips" id="chips"></div><div class="fb" id="gfb"></div>
+<button class="btn alt" id="greset">🔀 Embaralhar</button></div>
+</section>
+</main>
+<footer><div class="wrap">Do campo à mesa, cada etapa conta. 🌱</div></footer>
+<nav class="bn"><div><a href="#top" class="on"><b>🏠</b>Início</a><a href="#videos"><b>🎬</b>Vídeos</a><a href="#ler"><b>📖</b>Ler</a><a href="#explorar"><b>🔎</b>Explorar</a><a href="#jogar"><b>🎮</b>Jogar</a></div></nav>
+<div id="lb"><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
